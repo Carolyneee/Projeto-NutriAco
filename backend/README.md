@@ -1,3 +1,3 @@
 # Backend
 
-API REST que será desenvolvida no PIE II utilizando Node.js e Express.
+API REST desenvolvida em Node.js e Express.
