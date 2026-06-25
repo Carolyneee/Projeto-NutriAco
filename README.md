@@ -14,33 +14,49 @@ Sistema desenvolvido para auxiliar a ONG Associação NutriAção no gerenciamen
 
 A ONG realiza diversos controles por meio de planilhas e registros manuais, ocasionando:
 
-- perda de alimentos por vencimento;
-- dificuldade na rastreabilidade das doações;
-- geração lenta de relatórios;
-- controle limitado das famílias beneficiadas.
+- Perda de aproximadamente 12% dos alimentos perecíveis;
+- Dificuldade de rastreamento das entregas;
+- Duplicidade de distribuição;
+- Baixa visibilidade do estoque;
+- Demora na geração de relatórios;
+- Risco de perda de informações.
+
 
 ## Objetivos
 
-- Cadastro de usuários;
-- Cadastro de famílias;
-- Registro de doações;
-- Controle de estoque;
+- Gestão de estoque;
+- Gestão de doações;
+- Gestão de famílias beneficiárias;
+- Controle de validade;
 - Registro de entregas;
-- Relatórios gerenciais.
+- Emissão de relatórios
+- Rastreabilidade das doações.
+
+
+## Adequação à LGPD
+
+- Autenticação via JWT;
+- Controle de acesso por perfil;
+- Criptografia de senhas;
+- Coleta mínima de dados;
+- Consentimento para armazenamento;
+- Logs de auditoria;
+- Backups periódicos.
+
 
 ## Tecnologias
 
 ### Frontend
-React.js
+React.js.
 
 ### Backend
-Node.js + Express
+Node.js e express.
 
 ### Banco de Dados
-MySQL
+MySQL.
 
 ### Segurança
-JWT e criptografia de dados
+JWT e criptografia de dados.
 
 ## Estrutura do Projeto
 
