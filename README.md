@@ -4,61 +4,47 @@
 
 Carolyne Soares Ribeiro.
 
-## Disciplina
+# Sistema de Gestão de Doações - Associação NutriAção
 
-Projeto Integrador Extensionista I
-Tecnologia em Análise e Desenvolvimento de Sistema.
+## Projeto Integrador Extensionista I
 
-## Projeto Integrador Extensionista 
+Sistema desenvolvido para auxiliar a ONG Associação NutriAção no gerenciamento de doações, estoque e distribuição de alimentos.
 
-Sistema desenvolvido para a ONG Associação NutriAção com o objetivo de melhorar o controle de doações, estoque e distribuição de alimentos para famílias em situação de vulnerabilidade social.
+## Problema
 
-## Problema Identificado
+A ONG realiza diversos controles por meio de planilhas e registros manuais, ocasionando:
 
-A ONG enfrenta dificuldades relacionadas a:
-
-- Controle de validade dos alimentos;
-- Rastreabilidade das doações;
-- Elaboração manual de relatórios;
-- Controle das famílias beneficiadas;
-- Perda de informações históricas.
+- perda de alimentos por vencimento;
+- dificuldade na rastreabilidade das doações;
+- geração lenta de relatórios;
+- controle limitado das famílias beneficiadas.
 
 ## Objetivos
 
-- Cadastrar usuários;
-- Cadastrar famílias beneficiárias;
-- Registrar doações;
-- Controlar estoque;
-- Registrar entregas;
-- Gerar relatórios;
-- Reduzir desperdícios.
+- Cadastro de usuários;
+- Cadastro de famílias;
+- Registro de doações;
+- Controle de estoque;
+- Registro de entregas;
+- Relatórios gerenciais.
 
-## Tecnologias Definidas
+## Tecnologias
 
 ### Frontend
-- React.js
+React.js
 
 ### Backend
-- Node.js
-- Express
+Node.js + Express
 
 ### Banco de Dados
-- MySQL
+MySQL
 
 ### Segurança
-- JWT
-- Criptografia de dados
+JWT e criptografia de dados
 
 ## Estrutura do Projeto
 
-/docs → documentação do projeto
-
-/database → scripts SQL
-
-/backend → API REST
-
-/frontend → interface do sistema
-
-/apresentacao → slides
-
-/entregas → versões entregues na disciplina
+/docs
+/backend
+/frontend
+/database
