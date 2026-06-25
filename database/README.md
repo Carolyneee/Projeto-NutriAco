@@ -1,3 +1,3 @@
 # Banco de Dados
 
-Estrutura do banco MySQL que será implementada no PIE II.
+Estrutura do banco MySQL.
